@@ -1,3 +1,39 @@
-<div id="map">
-</div> 
-<script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
+    ``` html
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapbox GL JS map</title>
+
+  <!-- Mapbox core CSS -->
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css" />
+  <!-- Compare plugin CSS -->
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css" />
+  <!-- Your styles -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Split-screen container with two maps -->
+  <div id="comparison-container">
+    <div id="left"></div>
+    <div id="right"></div>
+  </div>
+
+  <!-- Overlays -->
+  <h1>Map of Methane Leaks & Number Exposed from Oil & Gas Development</h1>
+  <p id="credits">
+    Cartographer: <strong>Lauren Gonzalez</strong> (2025)<br/>
+    Data sources: Carbon Mapper Methane Plume Source Data, US Census Bureau ACS 5-year 2023 Block Group Data, Mapbox Dark Basemap
+  </p>
+
+  <!-- Mapbox core JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js"></script>
+  <!-- Compare plugin JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+  <!-- Your script (use the two-map code I gave in the last message) -->
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
