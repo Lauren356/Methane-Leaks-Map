@@ -2,6 +2,7 @@
 This map provides a side-by-side comparison of methane leaks or plumes produced by oil & gas development and the amount of people exposed.
 
 Data is taken from 2 sources:
+
 Carbon Mapper data [2016-2025]. Retrieved from  https://data.carbonmapper.org  [Nov 8th, 2025]
 U.S. Census Bureau. (2023). American Community Survey 5-Year Estimates, 2018–2023. Retrieved from https://data.census.gov
 
